@@ -1,2 +1,2 @@
 # QuickESP
-Minimalistic and discreet ESP/EFI Mounter application (WIP)
+Minimal and discreet ESP/EFI Mounter application for macOS (Ground-up WIP)
