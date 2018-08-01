@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		421A72042111E35B009EE486 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 421A72022111E35B009EE486 /* Main.m */; };
-		421A72082111E444009EE486 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 421A72072111E444009EE486 /* MainMenu.xib */; };
-		42BFC65B2111E2E4008DABA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BFC65A2111E2E4008DABA7 /* Assets.xcassets */; };
+		42D3B9252111E90C00A70821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D3B9222111E90C00A70821 /* Assets.xcassets */; };
+		42D3B9262111E90C00A70821 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D3B9232111E90C00A70821 /* Info.plist */; };
+		42D3B9272111E90C00A70821 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D3B9242111E90C00A70821 /* MainMenu.xib */; };
+		42D3B92B2111E91E00A70821 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D3B92A2111E91E00A70821 /* Main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		421A72002111E35B009EE486 /* Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main.h; sourceTree = "<group>"; };
-		421A72022111E35B009EE486 /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main.m; sourceTree = "<group>"; };
-		421A72052111E3AD009EE486 /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
-		421A72072111E444009EE486 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		42BFC6542111E2E3008DABA7 /* QuickESP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickESP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		42BFC65A2111E2E4008DABA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		42BFC65F2111E2E4008DABA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D3B9222111E90C00A70821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = QuickESP/Assets.xcassets; sourceTree = "<group>"; };
+		42D3B9232111E90C00A70821 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = QuickESP/Info.plist; sourceTree = "<group>"; };
+		42D3B9242111E90C00A70821 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = QuickESP/MainMenu.xib; sourceTree = "<group>"; };
+		42D3B9292111E91E00A70821 /* Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Main.h; path = QuickESP/Main.h; sourceTree = "<group>"; };
+		42D3B92A2111E91E00A70821 /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Main.m; path = QuickESP/Main.m; sourceTree = "<group>"; };
+		42D3B92C2111E92800A70821 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Global.h; path = QuickESP/Global.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,19 +34,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		421A72062111E3CA009EE486 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				421A72022111E35B009EE486 /* Main.m */,
-				421A72002111E35B009EE486 /* Main.h */,
-			);
-			name = Main;
-			sourceTree = "<group>";
-		};
 		42BFC64B2111E2E3008DABA7 = {
 			isa = PBXGroup;
 			children = (
-				42BFC6562111E2E3008DABA7 /* Source */,
+				42D3B9212111E8FB00A70821 /* Source */,
 				42BFC6692111E324008DABA7 /* Resource */,
 				42BFC6552111E2E3008DABA7 /* Products */,
 			);
@@ -59,23 +51,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		42BFC6562111E2E3008DABA7 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				421A72062111E3CA009EE486 /* Main */,
-				421A72052111E3AD009EE486 /* Global.h */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		42BFC6692111E324008DABA7 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				42BFC65A2111E2E4008DABA7 /* Assets.xcassets */,
-				421A72072111E444009EE486 /* MainMenu.xib */,
-				42BFC65F2111E2E4008DABA7 /* Info.plist */,
+				42D3B9222111E90C00A70821 /* Assets.xcassets */,
+				42D3B9242111E90C00A70821 /* MainMenu.xib */,
+				42D3B9232111E90C00A70821 /* Info.plist */,
 			);
 			name = Resource;
+			sourceTree = "<group>";
+		};
+		42D3B9212111E8FB00A70821 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				42D3B9282111E91400A70821 /* Main */,
+				42D3B92C2111E92800A70821 /* Global.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		42D3B9282111E91400A70821 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				42D3B92A2111E91E00A70821 /* Main.m */,
+				42D3B9292111E91E00A70821 /* Main.h */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BFC65B2111E2E4008DABA7 /* Assets.xcassets in Resources */,
-				421A72082111E444009EE486 /* MainMenu.xib in Resources */,
+				42D3B9262111E90C00A70821 /* Info.plist in Resources */,
+				42D3B9252111E90C00A70821 /* Assets.xcassets in Resources */,
+				42D3B9272111E90C00A70821 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				421A72042111E35B009EE486 /* Main.m in Sources */,
+				42D3B92B2111E91E00A70821 /* Main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +273,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = QuickESP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -291,7 +293,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = QuickESP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
