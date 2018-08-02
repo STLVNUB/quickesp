@@ -15,45 +15,37 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="0Al-3f-Q8Z" customClass="Main">
             <connections>
+                <outlet property="statusMenu" destination="gaw-V0-Tf3" id="4LC-cb-lYI"/>
                 <outlet property="window" destination="9Qg-Nz-tzR" id="QNT-IV-OJu"/>
             </connections>
         </customObject>
-        <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
-            <items>
-                <menuItem title="QuickESP" id="1Xt-HY-uBw">
-                    <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="QuickESP" systemMenu="apple" id="uQy-DD-JDr">
-                        <items>
-                            <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
-                                <connections>
-                                    <action selector="menuPreferences:" target="0Al-3f-Q8Z" id="tzk-uK-upJ"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
-                            <menuItem title="Quit" keyEquivalent="q" id="4sb-4s-VLi">
-                                <connections>
-                                    <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
-                                </connections>
-                            </menuItem>
-                        </items>
-                    </menu>
-                </menuItem>
-            </items>
-            <connections>
-                <outlet property="delegate" destination="0Al-3f-Q8Z" id="tvq-3j-3rN"/>
-            </connections>
-            <point key="canvasLocation" x="68" y="109"/>
-        </menu>
         <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" frameAutosaveName="" animationBehavior="default" id="9Qg-Nz-tzR">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="131" y="158" width="403" height="284"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
             <view key="contentView" id="qeY-x5-N8H">
                 <rect key="frame" x="0.0" y="0.0" width="403" height="284"/>
                 <autoresizingMask key="autoresizingMask"/>
             </view>
             <point key="canvasLocation" x="61" y="425"/>
         </window>
+        <menu id="gaw-V0-Tf3">
+            <items>
+                <menuItem title="Item 1" id="jYy-ib-niP">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Item 2" id="uIs-sE-sqK">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Item 3" id="gGQ-J6-TA0">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+            </items>
+            <connections>
+                <outlet property="delegate" destination="0Al-3f-Q8Z" id="Dem-MM-Euc"/>
+            </connections>
+            <point key="canvasLocation" x="92" y="118"/>
+        </menu>
     </objects>
 </document>
