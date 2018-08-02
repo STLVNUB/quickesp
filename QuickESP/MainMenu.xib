@@ -19,21 +19,27 @@
                 <outlet property="window" destination="9Qg-Nz-tzR" id="QNT-IV-OJu"/>
             </connections>
         </customObject>
-        <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" frameAutosaveName="" animationBehavior="default" id="9Qg-Nz-tzR">
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="9Qg-Nz-tzR">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="131" y="158" width="403" height="284"/>
+            <rect key="contentRect" x="131" y="158" width="240" height="240"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
             <view key="contentView" id="qeY-x5-N8H">
-                <rect key="frame" x="0.0" y="0.0" width="403" height="284"/>
+                <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
                 <autoresizingMask key="autoresizingMask"/>
             </view>
-            <point key="canvasLocation" x="61" y="425"/>
+            <point key="canvasLocation" x="-72" y="424"/>
         </window>
         <menu id="gaw-V0-Tf3">
             <items>
-                <menuItem title="QuickESP: Detection..." id="jYy-ib-niP">
+                <menuItem title="QuickESP: Detection..." enabled="NO" id="jYy-ib-niP">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Preferences" id="eeO-he-H76">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="menuPreferences:" target="0Al-3f-Q8Z" id="LSA-gF-CyB"/>
+                    </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="NTM-Kn-FHy"/>
                 <menuItem title="Quit" id="uIs-sE-sqK">

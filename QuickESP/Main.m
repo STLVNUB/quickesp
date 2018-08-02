@@ -15,6 +15,12 @@
     self.statusBar.menu  = self.statusMenu;
 }
 
+// Menu actions
+
+- (IBAction)menuPreferences:(id)sender {
+    self.window.isVisible = YES;
+}
+
 @end
 
 int main() {
