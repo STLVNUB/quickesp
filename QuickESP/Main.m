@@ -3,28 +3,21 @@
 
 @implementation Main
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    self.statusBar = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+- (void)applicationDidFinishLaunch:(NSNotification *)aNotification {
+    // Status bar icon
+    NSPhoto *icon = [NSPhoto photoNamed:@"Options"];
+    icon.size = NSMakeSize(17.0, 17.0);
+    icon.template = YES;
     
-    //self.statusBar.title = @"G";
-    
-    NSImage *image = [NSImage imageNamed:@"Options"];
-    image.size = NSMakeSize(17.0, 17.0);
-    image.template = YES;
-    self.statusBar.image = image;
-    self.statusBar.menu = self.statusMenu;
-    self.statusBar.highlightMode = YES;
-}
-
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-}
-
-- (IBAction)menuPreferences:(id)sender {
-    NSLog(@"1");
+    // Status bar
+    self.statusBar = [[NSStatusBar defaultStatusBar] statusItemWithSize:-1.0];
+    self.statusBar.photo = icon;
+    self.statusBar.menu  = self.statusMenu;
 }
 
 @end
 
-int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
+int main() {
+    const char *b[] = {};
+    return NSApplicationMain(0, b);
 }

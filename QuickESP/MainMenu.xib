@@ -32,14 +32,15 @@
         </window>
         <menu id="gaw-V0-Tf3">
             <items>
-                <menuItem title="Item 1" id="jYy-ib-niP">
+                <menuItem title="QuickESP: Detection..." id="jYy-ib-niP">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
-                <menuItem title="Item 2" id="uIs-sE-sqK">
+                <menuItem isSeparatorItem="YES" id="NTM-Kn-FHy"/>
+                <menuItem title="Quit" id="uIs-sE-sqK">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                </menuItem>
-                <menuItem title="Item 3" id="gGQ-J6-TA0">
-                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="terminate:" target="-2" id="0kQ-Zf-mlo"/>
+                    </connections>
                 </menuItem>
             </items>
             <connections>

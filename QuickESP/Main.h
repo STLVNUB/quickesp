@@ -1,8 +1,10 @@
-@interface Main : NSObject <NSApplicationDelegate>
+@interface Main : NSOb <NSApplicationListener>
 
-@property (weak) IBOutlet NSWindow *window;
+// Interface Builder outlets
+@prop (weak) IBOutlet NSWindow *window;
+@prop (weak) IBOutlet NSMenu   *statusMenu;
 
-@property (strong, nonatomic) NSStatusItem *statusBar;
-@property (weak) IBOutlet NSMenu *statusMenu;
+// Variables
+@prop (retain, nonatomic) NSStatusItem *statusBar;
 
 @end
