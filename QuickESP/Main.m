@@ -9,4 +9,14 @@
 
 @implementation Main
 
+- (id)init {
+    if (self = [super init]) {
+    }
+    return self;
+}
+
+- (void)discoverVolumes {
+    NSLog(@"hi");
+}
+
 @end

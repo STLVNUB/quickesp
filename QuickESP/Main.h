@@ -6,4 +6,6 @@
 
 @interface Main : NSOb
 
+- (void)discoverVolumes;
+
 @end

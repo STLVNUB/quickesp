@@ -22,6 +22,10 @@
     
     // Window
     [self.window center];
+    
+    // Discover EFI Volumes
+    self.main = [[Main alloc] init];
+    [self.main discoverVolumes];
 }
 
 // Menu actions
