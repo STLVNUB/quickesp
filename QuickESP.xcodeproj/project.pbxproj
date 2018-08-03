@@ -8,19 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4242D89321131EDB003AA101 /* QuickESP.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4242D89221131EDB003AA101 /* QuickESP.icns */; };
+		42862F4E2114774300B7E63B /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42862F4D2114774300B7E63B /* Main.m */; };
 		42D3B9252111E90C00A70821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D3B9222111E90C00A70821 /* Assets.xcassets */; };
 		42D3B9272111E90C00A70821 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D3B9242111E90C00A70821 /* MainMenu.xib */; };
-		42D3B92B2111E91E00A70821 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D3B92A2111E91E00A70821 /* Main.m */; };
+		42D3B92B2111E91E00A70821 /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D3B92A2111E91E00A70821 /* Application.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4242D89221131EDB003AA101 /* QuickESP.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = QuickESP.icns; path = QuickESP/QuickESP.icns; sourceTree = "<group>"; };
+		42862F4C2114774300B7E63B /* Main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Main.h; path = QuickESP/Main.h; sourceTree = "<group>"; };
+		42862F4D2114774300B7E63B /* Main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Main.m; path = QuickESP/Main.m; sourceTree = "<group>"; };
 		42BFC6542111E2E3008DABA7 /* QuickESP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickESP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D3B9222111E90C00A70821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = QuickESP/Assets.xcassets; sourceTree = "<group>"; };
 		42D3B9232111E90C00A70821 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = QuickESP/Info.plist; sourceTree = "<group>"; };
 		42D3B9242111E90C00A70821 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = QuickESP/MainMenu.xib; sourceTree = "<group>"; };
-		42D3B9292111E91E00A70821 /* Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Main.h; path = QuickESP/Main.h; sourceTree = "<group>"; };
-		42D3B92A2111E91E00A70821 /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Main.m; path = QuickESP/Main.m; sourceTree = "<group>"; };
+		42D3B9292111E91E00A70821 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Application.h; path = QuickESP/Application.h; sourceTree = "<group>"; };
+		42D3B92A2111E91E00A70821 /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Application.m; path = QuickESP/Application.m; sourceTree = "<group>"; };
 		42D3B92C2111E92800A70821 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Global.h; path = QuickESP/Global.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42862F4B211476DA00B7E63B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				42862F4D2114774300B7E63B /* Main.m */,
+				42862F4C2114774300B7E63B /* Main.h */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		42BFC64B2111E2E3008DABA7 = {
 			isa = PBXGroup;
 			children = (
@@ -66,19 +78,20 @@
 		42D3B9212111E8FB00A70821 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				42D3B9282111E91400A70821 /* Main */,
+				42D3B9282111E91400A70821 /* Application */,
+				42862F4B211476DA00B7E63B /* Main */,
 				42D3B92C2111E92800A70821 /* Global.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
 		};
-		42D3B9282111E91400A70821 /* Main */ = {
+		42D3B9282111E91400A70821 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				42D3B92A2111E91E00A70821 /* Main.m */,
-				42D3B9292111E91E00A70821 /* Main.h */,
+				42D3B92A2111E91E00A70821 /* Application.m */,
+				42D3B9292111E91E00A70821 /* Application.h */,
 			);
-			name = Main;
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42D3B92B2111E91E00A70821 /* Main.m in Sources */,
+				42862F4E2114774300B7E63B /* Main.m in Sources */,
+				42D3B92B2111E91E00A70821 /* Application.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

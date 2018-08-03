@@ -18,4 +18,5 @@
 #define statusItemWithSize          statusItemWithLength
 
 // User imports
+#import "Application.h"
 #import "Main.h"
