@@ -9,13 +9,14 @@
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
             <connections>
                 <outlet property="delegate" destination="0Al-3f-Q8Z" id="THb-ep-W2v"/>
+                <outlet property="statusMenu" destination="gaw-V0-Tf3" id="az9-tS-aw4"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="0Al-3f-Q8Z" customClass="Application">
             <connections>
-                <outlet property="statusMenu" destination="gaw-V0-Tf3" id="4LC-cb-lYI"/>
+                <outlet property="statusMenu" destination="gaw-V0-Tf3" id="tIg-F1-KE9"/>
                 <outlet property="window" destination="9Qg-Nz-tzR" id="QNT-IV-OJu"/>
             </connections>
         </customObject>
@@ -110,7 +111,7 @@
             </view>
             <point key="canvasLocation" x="-81" y="511"/>
         </window>
-        <menu id="gaw-V0-Tf3">
+        <menu id="gaw-V0-Tf3" customClass="Menu">
             <items>
                 <menuItem title="QuickESP: Detection..." enabled="NO" id="jYy-ib-niP">
                     <modifierMask key="keyEquivalentModifierMask"/>
@@ -118,7 +119,7 @@
                 <menuItem title="Preferences" id="eeO-he-H76">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="menuPreferences:" target="0Al-3f-Q8Z" id="LSA-gF-CyB"/>
+                        <action selector="clickPreferences:" target="gaw-V0-Tf3" id="OTh-pl-ZFU"/>
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="NTM-Kn-FHy"/>
@@ -130,7 +131,7 @@
                 </menuItem>
             </items>
             <connections>
-                <outlet property="delegate" destination="0Al-3f-Q8Z" id="Dem-MM-Euc"/>
+                <outlet property="delegate" destination="-2" id="aYm-dL-AHX"/>
             </connections>
             <point key="canvasLocation" x="92" y="118"/>
         </menu>

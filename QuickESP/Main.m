@@ -11,12 +11,12 @@
 
 - (id)init {
     if (self = [super init]) {
+        // OK
     }
     return self;
 }
 
 - (void)discoverVolumes {
-    NSLog(@"hi");
 }
 
 @end

@@ -16,7 +16,9 @@
 #define photo                       image
 #define defaultStatusBar            systemStatusBar
 #define statusItemWithSize          statusItemWithLength
+#define member                      delegate
 
 // User imports
 #import "Main.h"
+#import "Menu.h"
 #import "Application.h"

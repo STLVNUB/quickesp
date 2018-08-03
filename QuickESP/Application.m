@@ -10,6 +10,8 @@
 @implementation Application
 
 - (void)applicationDidFinishLaunch:(NSNotification *)aNotification {
+    app = (Application *)[NSApp member];
+    
     // Status bar icon
     NSPhoto *icon = [NSPhoto photoNamed:@"Status"];
     icon.size = NSMakeSize(17.0, 17.0);
@@ -25,13 +27,6 @@
     
     // Discover EFI Volumes
     self.main = [[Main alloc] init];
-    [self.main discoverVolumes];
-}
-
-// Menu actions
-
-- (IBAction)menuPreferences:(id)sender {
-    self.window.isVisible = YES;
 }
 
 // Preferences actions
@@ -51,3 +46,5 @@ int main() {
     const char *b[] = {};
     return NSApplicationMain(0, b);
 }
+
+Application *app;

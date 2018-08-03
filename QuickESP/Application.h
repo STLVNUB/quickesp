@@ -8,10 +8,12 @@
 
 // Interface Builder outlets
 @prop (weak) IBOutlet NSWindow *window;
-@prop (weak) IBOutlet NSMenu *statusMenu;
+@prop (weak) IBOutlet Menu *statusMenu;
 
 // Variables
 @prop (retain, nonatomic) Main *main;
 @prop (retain, nonatomic) NSStatusItem *statusBar;
 
 @end
+
+extern Application *app;
