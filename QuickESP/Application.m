@@ -11,6 +11,7 @@
 
 - (void)applicationDidFinishLaunch:(NSNotification *)aNotification {
     app = (Application *)[NSApp member];
+    self.queue = [[NSOperationQueue alloc] init];
     
     // Status bar icon
     NSPhoto *icon = [NSPhoto photoNamed:@"Status"];

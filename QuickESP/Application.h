@@ -13,6 +13,7 @@
 // Variables
 @prop (retain, nonatomic) Main *main;
 @prop (retain, nonatomic) NSStatusItem *statusBar;
+@prop (retain, nonatomic) NSOperationQueue *queue;
 
 @end
 

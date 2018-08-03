@@ -17,6 +17,10 @@
 }
 
 - (void)discoverVolumes {
+    [app.queue addOperation:[NSBlockOperation blockOperationWithBlock:^{
+    }]];
+    
+    [app.queue waitUntilAllOperationsAreFinished];
 }
 
 @end
