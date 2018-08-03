@@ -22,71 +22,80 @@
         <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="9Qg-Nz-tzR">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="131" y="158" width="218" height="190"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <rect key="contentRect" x="131" y="158" width="246" height="192"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
             <view key="contentView" id="qeY-x5-N8H">
-                <rect key="frame" x="0.0" y="0.0" width="218" height="190"/>
+                <rect key="frame" x="0.0" y="0.0" width="246" height="192"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A8V-jL-jXc">
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Vr-cS-fc2">
+                        <rect key="frame" x="74" y="137" width="79" height="35"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="quick" id="JB0-Jw-kEf">
+                            <font key="font" metaFont="systemBold" size="29"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r8R-Zs-gOW">
+                        <rect key="frame" x="148" y="137" width="54" height="35"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="esp" id="wcu-qf-7RC">
+                            <font key="font" metaFont="systemBold" size="29"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.24881712147887325" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dGZ-mf-Mbm">
+                        <rect key="frame" x="93" y="128" width="78" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Dennis Koluris" id="eYX-OL-oQe">
+                            <font key="font" metaFont="systemBold" size="10"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.29599471830985913" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rOJ-fr-Ew0">
+                        <rect key="frame" x="203" y="141" width="25" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="v1.2" id="QT3-M0-KcW">
+                            <font key="font" metaFont="systemBold" size="10"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.74749669890000003" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SOV-wl-vYu">
                         <rect key="frame" x="20" y="122" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="QuickESP" id="fhr-JB-CHH"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="QuickESP" id="nn6-Tt-WTX"/>
                     </imageView>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dpf-ZL-Q0u">
-                        <rect key="frame" x="74" y="142" width="106" height="27"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="QuickESP" id="NUs-dc-9V8">
-                            <font key="font" metaFont="systemBold" size="22"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.75467649647887325" colorSpace="custom" customColorSpace="sRGB"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yp8-8Z-DzN">
-                        <rect key="frame" x="76" y="128" width="73" height="14"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Dennis Koluris" id="rrw-rE-FVh">
-                            <font key="font" metaFont="system" size="10"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.39725462147887325" colorSpace="custom" customColorSpace="sRGB"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="neV-hj-tYm">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DpC-MH-zG0">
                         <rect key="frame" x="18" y="78" width="160" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title="Enable Advanced View" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="bdw-gS-iju">
+                        <buttonCell key="cell" type="check" title="Enable Advanced View" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="0ii-aE-Fd0">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FLl-Og-fWV">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aSc-aA-BYX">
                         <rect key="frame" x="18" y="58" width="182" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title="Open ESP folder on Finder" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="MUT-mO-TNT">
+                        <buttonCell key="cell" type="check" title="Open ESP folder on Finder" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="FTn-u3-H7n">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tP6-0T-xD2">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UdI-z9-YEQ">
                         <rect key="frame" x="18" y="18" width="79" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title="Autostart" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="G6W-1Y-5zp">
+                        <buttonCell key="cell" type="check" title="Autostart" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="BL5-HR-Wg3">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cGh-n6-8eD">
-                        <rect key="frame" x="175" y="128" width="25" height="14"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="v1.2" id="aDM-vU-2Jv">
-                            <font key="font" metaFont="systemBold" size="10"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.747496698943662" colorSpace="custom" customColorSpace="sRGB"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="-95" y="498"/>
+            <point key="canvasLocation" x="-81" y="499"/>
         </window>
         <menu id="gaw-V0-Tf3">
             <items>
