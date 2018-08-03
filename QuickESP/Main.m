@@ -30,6 +30,17 @@
     self.window.isVisible = YES;
 }
 
+// Preferences actions
+
+- (IBAction)enableAdvancedView:(id)sender {
+}
+
+- (IBAction)openESPfolder:(id)sender {
+}
+
+- (IBAction)autostart:(id)sender {
+}
+
 @end
 
 int main() {
