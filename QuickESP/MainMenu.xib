@@ -13,7 +13,7 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="0Al-3f-Q8Z" customClass="Main">
+        <customObject id="0Al-3f-Q8Z" customClass="Application">
             <connections>
                 <outlet property="statusMenu" destination="gaw-V0-Tf3" id="4LC-cb-lYI"/>
                 <outlet property="window" destination="9Qg-Nz-tzR" id="QNT-IV-OJu"/>
@@ -56,7 +56,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="v1.2" id="QT3-M0-KcW">
                             <font key="font" metaFont="systemBold" size="10"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.74749669890000003" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
