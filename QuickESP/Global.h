@@ -17,6 +17,12 @@
 #define defaultStatusBar            systemStatusBar
 #define statusItemWithSize          statusItemWithLength
 #define member                      delegate
+#define NSChars                     NSString
+#define setParameters               setArguments
+#define fileHandleForRead           fileHandleForReading
+#define encode                      encoding
+#define NSConsole                   NSLog
+#define NSMenuListener              NSMenuDelegate
 
 // User imports
 #import "Main.h"

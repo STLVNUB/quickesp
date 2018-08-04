@@ -4,6 +4,6 @@
  * License : Apache 2
  */
 
-@interface Menu : NSMenu <NSMenuDelegate>
+@interface Menu : NSMenu <NSMenuListener>
 
 @end
